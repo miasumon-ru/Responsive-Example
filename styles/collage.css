@@ -1,34 +1,10 @@
-
-
-.nav-img{
+img{
     width: 100%;
+    height: 100%;
+    /* border: 5px solid red; */
 }
 
-
-.row{
-    display: flex;
-    gap: 5px;
+l.row{
     height: 400px;
-    margin-bottom: 5px;
-
-
-}
-.row>div{
-    flex: 1;
-
-}
-.verticle-collage{
     display: flex;
-    flex-direction: column;
-    /* gap: 5px; */
-    width: 50%;
-
-}
-.verticle-collage img{
-    
-}
-.horizontal-collage{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* gap: 5px; */
 }
